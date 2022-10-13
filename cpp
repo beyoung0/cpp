@@ -15,11 +15,5 @@ public:
     }
 };
 
-int main(){
-  int n;
-  double x;
-  cin>>n>>x; 
-  cout<<myPow(x,n);
-  return 0;
-}
+// didnt needed that
   
