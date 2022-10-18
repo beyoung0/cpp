@@ -10,6 +10,7 @@ public:
             if (n % 2) res = n > 0 ? res * x : res / x;
             x = x * x;
             n /= 2;
+            n*=2;
         }
         return res;
     }
