@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 int main(){
   int a,b;
-  cout<<"Sum is : "<a+b<<" ";
+  cout<<"Sum is : "<a+b<<endl;
   return 0;
 }
