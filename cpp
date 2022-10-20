@@ -1,5 +1,5 @@
 code for power of x to the power n.
-
+function
 code:
 
 class Solution {
