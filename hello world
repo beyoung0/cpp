@@ -3,4 +3,5 @@ write hello world
 int main(){
   cout<<"hello world";
   cout<<"hello from Australia"<<endl;
+  cout<<"Ohaio"<<endl;
 }
