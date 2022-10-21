@@ -18,11 +18,11 @@ if __name__ == '__main__':
     soup = getSoup(httpsLink)
     writeFile(soup, "https.html")
     uls = soup.find_all("ul", class_="a-unordered-list a-nostyle a-vertical a-spacing-none detail-bullet-list")
+    #print(soup)
     for ul in uls:
         lis = ul.find_all("li")
         for li in lis:
             #print(li.text)
-            
             if 'Publisher' in li.text:
                 with open ('bs4.txt','a', encoding='utf-8') as f:
                     f.write(li.text)
